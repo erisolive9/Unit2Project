@@ -1,0 +1,163 @@
+header {
+    font-family: Trebuchet MS;
+    background-color: #cc1400;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+  width: 500px;
+  border-radius: 30px;
+  box-shadow: 3px 3px 10px gray;
+  margin-right: 30px;
+}
+
+img:hover {
+  box-shadow: 3px 3px 10px black;
+}
+
+iframe {
+  margin-left: 50px;
+}
+
+a {
+  color: #75b5e6;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  font-family: Trebuchet MS;
+  color: white;
+  text-decoration: bold;
+  text-align: center;
+  background-color: #75b5e6;
+  border: 2px solid #4f4f4f;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 30px;
+}
+
+h3 {
+  font-family: Calibri;
+  text-shadow: 3px 3px 2px #75b5e6;
+  color: #031754;
+  text-align: center;
+  font-size: 24px;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 2;
+  margin: 30px;
+  text-indent: 50px;
+}
+
+li {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 24px;
+  line-height: 2;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.block {
+  display: block;
+}
+
+.funFact {
+  border: 15px solid #cc1400;
+  border-width: 5px;
+  padding: 10px;
+}
+
+.layer {
+  z-index: 1;
+}
+
+.background {
+  width: 100%;
+  box-shadow: none;
+  border-radius: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.background:hover {
+  box-shadow: none;
+}
+
+.graphL {
+  border-radius: 0px;
+  box-shadow: none;
+  margin-left: 50px;
+}
+
+.graphR {
+  border-radius: 0px;
+  box-shadow: none;
+  margin-right: 50px;
+}
+
+.graphL:hover, .graphR:hover {
+  box-shadow: 0px 0px 25px #75b5e6;
+}
+
+.menuBox {
+  justify-content: flex-end;
+  padding: 20px;
+  margin: 5px;
+  border: 3px solid white;
+  border-radius: 10px;
+  color: white;
+  font-family: Trebuchet MS;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#videoText {
+  max-width: 500px;
+}
+
+#logo {
+  width: 75px;
+  height: 75px;
+  padding: 0px;
+  border-width: none;
+  box-shadow: none;
+}
+
+#title {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#bottom {
+  padding: 75px;
+  background: #cc1400;
+}
+
+#bottomText {
+  background: #75b5e6;
+  color: white;
+  border: 5px solid white;
+  padding: 75px;
+  box-shadow: 0px 0px 30px white;
+}
+
